@@ -1,0 +1,48 @@
+#others
+docuSign-keys-dev-personal*
+
+#dependecy directories
+node_modules
+jspm_packages/
+package-lock.json
+
+#.env files
+.env*
+
+#log files
+*.Log
+*.log
+logs
+npm-debug.log*
+.pnpm-debug.log*
+
+#archivos del sistema Mac 
+.DS_Store
+.DS_store
+
+#example folders
+MyTests
+/test-examples
+
+#TestData
+TestDataFile
+
+#BIN
+Bin*
+bin*
+
+#Vscode generated
+/.vscode/
+/.idea/
+volumes
+
+#Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+reports
+*summary.*
+
+#Optional npm cache directory
+.npm
+
+#Stores VSCode versions used for testing VSCode extensions
+.vscode-test
